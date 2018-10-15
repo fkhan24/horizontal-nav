@@ -1,8 +1,39 @@
 html {
   box-sizing: border-box;
-  font-family: 'Bevan', cursive;
+  background-color: #dbd6cf;
+  color: #fff;
+  font-family: Bevan, cursive;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  color: #713837;
+}
+
+a:hover {
+  background-color: #f33;
+  border-color: #f33;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+
+}
+
+body {
+  margin: 0;
 }
